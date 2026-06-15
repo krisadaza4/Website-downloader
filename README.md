@@ -2,7 +2,9 @@
 
 **Take any website offline.** Mirror a complete site — every page, stylesheet, script, font and image — and get it back as a single, ready-to-open ZIP. No account, no limits.
 
-<img width="1280" height="820" alt="website-downloader-screenshot" src="https://github.com/user-attachments/assets/9d4fd8f6-22b7-4821-acd0-f4b6013950e9" />
+[![Live Demo](https://img.shields.io/badge/Live_Demo-offliner.onrender.com-2f6bff?style=for-the-badge&logo=render&logoColor=white)](https://offliner.onrender.com)
+
+<img width="1280" height="820" alt="Offliner — take any website offline" src="https://github.com/user-attachments/assets/9d4fd8f6-22b7-4821-acd0-f4b6013950e9" />
 
 > Built on a finely-tuned `wget` mirror + `archiver`, with a live progress console streamed over Socket.io and an immersive three.js / GSAP frontend.
 
@@ -38,8 +40,8 @@ wget --mirror --convert-links --adjust-extension --page-requisites --no-parent <
 > **Requires [`wget`](https://www.gnu.org/software/wget/) on the host.** It ships with most Linux distros; install via Homebrew on macOS (`brew install wget`) or use the Docker image below.
 
 ```bash
-git clone https://github.com/krisadaza4/Website-downloader.git
-cd Website-downloader
+git clone https://github.com/krisadaza4/Offliner.git
+cd Offliner
 npm install
 npm start
 # open http://localhost:3000
@@ -58,11 +60,11 @@ The image is Debian-based and installs `wget` for you. See [`Dockerfile`](Docker
 
 One-click deploys to your own private instance (`render.yaml` + `Dockerfile` are included):
 
-[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/krisadaza4/Website-downloader)
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/krisadaza4/Website-downloader)
-[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/krisadaza4/Website-downloader)
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/krisadaza4/Website-downloader&branch=master&name=offliner)
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/krisadaza4/Website-downloader)
+[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/krisadaza4/Offliner)
+[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/krisadaza4/Offliner)
+[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/krisadaza4/Offliner)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/krisadaza4/Offliner&branch=master&name=offliner)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/krisadaza4/Offliner)
 
 > Offliner needs a persistent host that can run `wget` — it is **not** serverless-compatible.
 

@@ -37,6 +37,9 @@ public/sites/*
 # Design reference (not part of the app)
 rebate-cash.jpg
 
+# Local screenshots (the README uses a GitHub-hosted image)
+*-screenshot.png
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
